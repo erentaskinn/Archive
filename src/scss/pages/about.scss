@@ -1,0 +1,17 @@
+@import "@scss/main.scss";
+@import "@scss/components/notification-bars.scss";
+@import "@scss/components/heros.scss";
+
+body {
+  padding-top: 78px;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 56px;
+  }
+}
+
+.box {
+  background-color: $light;
+  border: 1px solid darken($light, 10%);
+  padding: ($spacer * 3) $spacer;
+}

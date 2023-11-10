@@ -1,0 +1,80 @@
+//
+$gradient: linear-gradient(-22.5deg, rgba($white, 0.65), rgba($white, 0));
+$box-shadow: 0 0.5rem 1rem rgba($black, 0.5);
+$box-shadow-inset: inset 0 1px 2px rgba($black, 0.175);
+
+$border-radius: 2.5rem;
+$border-radius-sm: 1.875rem;
+$border-radius-lg: 3rem;
+
+// body
+$body-color: $text-gray;
+$body-bg: $white !default;
+
+// Typography
+$font-size-base: 16px; // 1rem
+$font-family-sans-serif: "DM Sans", sans-serif;
+$font-weight-base: 400;
+
+$font-size-xs: $font-size-base * 0.75;
+$font-size-sm: $font-size-base * 0.875;
+$font-size-md: $font-size-base * 1.125;
+$font-size-lg: $font-size-base * 1.25;
+
+// headings display & paragraph
+
+$headings-color: $headings-black;
+$headings-font-weight: 700;
+
+$h1-font-size: $font-size-base * 3.5;
+$h2-font-size: $font-size-base * 2.25;
+$h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base * 1.375;
+$h5-font-size: $font-size-base * 1.125;
+$h6-font-size: $font-size-base;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+);
+
+$display-font-weight: 700;
+
+$display-font-sizes: (
+  1: 5.625rem,
+  2: 4.5rem,
+  3: 2.75rem,
+  4: 1.75rem,
+);
+
+// input & button
+$btn-padding-y: 1.125rem;
+$btn-padding-x: 2.25rem;
+$btn-line-height: 1;
+$btn-border-radius: 2.5rem;
+$btn-border-width: 1px;
+
+$btn-padding-y-sm: 0.75rem;
+$btn-padding-x-sm: 1.125rem;
+$btn-font-size-sm: 0.75rem;
+$btn-border-radius-sm: 1.875rem;
+
+$btn-hover-bg-shade-amount: 10%;
+$btn-hover-bg-tint-amount: 10%;
+
+$input-padding-y: $btn-padding-y;
+$input-padding-x: $btn-padding-x;
+$input-font-size: 1.125rem;
+$input-font-weight: $font-weight-base;
+$input-line-height: $btn-line-height;
+$input-border-radius: $btn-border-radius;
+$input-bg: $neutral-300;
+$input-border-width: 0;
+$input-focus-box-shadow: 0 0 0 0.15rem rgba($primary, 0.25);
+
+$form-label-color: $primary;
+$form-label-font-weight: 800;

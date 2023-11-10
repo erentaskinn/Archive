@@ -1,0 +1,103 @@
+// flatuicolors.com spanish palette
+// purples
+$lucky-point: #2c2c54;
+$jacksons-purple: #40407a;
+$liberty: #474787;
+$c64-purple: #706fd3;
+
+// greens
+$palm-springs-splash: #218c74;
+$celestial-green: #33d9b2;
+
+// blues
+$devil-blue: #227093;
+$summer-sky: #34ace0;
+
+// reds
+$eye-of-newt: #b33939;
+$fluorescent-red: #ff5252;
+$watermelon: #ff4757;
+
+// oranges
+$chilean-fire: #cd6133;
+$synthetic-pumpkin: #ff793f;
+$alameda-ochre: #cc8e35;
+$mandarin-sorbet: #ffb142;
+$spiced-butternut: #ffda79;
+$desert: #ccae62;
+
+// greys
+$grey-porcelein: #84817a;
+$hot-stone: #aaa69d;
+$crocodile-tooth: #d1ccc0;
+$swan-white: #f7f1e3;
+
+$twinkle-blue: #ced6e0;
+$city-lights: #dfe4ea;
+$anti-flash-white: #f5f6fa;
+
+// darks
+$prestige-blue: #2f3542;
+$peace: #a4b0be;
+
+// Brix template colors
+$primary-purple: #4a3aff;
+$headings-black: #5d5a88;
+$white: #ffffff;
+$black: #000000;
+$text-gray: #9795b5;
+
+$neutral-1000: #767494;
+$neutral-900: #8e8aa8;
+$neutral-800: #adabc3;
+$neutral-700: #bcbacd;
+$neutral-600: #d4d2e3;
+$neutral-500: #e7e6f2;
+$neutral-400: #f2f1fa;
+$neutral-300: #f9f9ff;
+$neutral-200: #fafaff;
+
+$purple-400: #962dff;
+$purple-300: #e0c2ff;
+$purple-200: #f0e3ff;
+$purple-100: #f8f1ff;
+
+$blue-400: #2d5bff;
+$blue-300: #93aafd;
+$blue-200: #c6d2fd;
+$blue-100: #f3f6ff;
+
+$green-400: #04cd00;
+$green-300: #7fe47e;
+$green-200: #bcefbd;
+$green-100: #f0fff0;
+
+$yellow-400: #ffc700;
+$yellow-300: #fff69d;
+$yellow-200: #fffcdd;
+$yellow-100: #fffdec;
+
+$red-400: #ff002f;
+$red-300: #fcb5c3;
+$red-200: #fbd7e0;
+$red-100: #fff0f1;
+
+$primary: $headings-black;
+$secondary: $neutral-1000;
+$success: $green-400;
+$info: $blue-400;
+$warning: $yellow-400;
+$danger: $red-400;
+$light: $neutral-200;
+$dark: $neutral-900;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);

@@ -1,0 +1,113 @@
+@import "bootstrap/scss/bootstrap";
+@import "../main.scss";
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&family=Rubik:ital,wght@0,400;0,600;0,800;1,400;1,600&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  padding-top: 3rem;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+
+  h1,
+  h2,
+  h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+.box {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: 0.035em;
+  font-weight: 600;
+  padding: 4.5rem 3rem;
+  background-color: rgba($white, $alpha: 0.05);
+  border: 2px solid rgba($white, $alpha: 0.3);
+  outline: 2px solid rgba($white, $alpha: 0.3);
+  box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+  @extend .rounded-3;
+
+  &:hover {
+    background-color: rgba($white, $alpha: 0.035);
+    border: 2px solid transparent;
+    outline: 2px solid rgba($white, $alpha: 0.65);
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.15);
+  }
+
+  & > i.fa-solid {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn-link {
+    font-size: 1.2rem;
+    color: var(--bs-body-color);
+    text-underline-offset: 0.35rem;
+    text-underline-position: under;
+
+    &:hover {
+      color: var(--bs-body-color);
+      text-decoration: none;
+    }
+  }
+}
+
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .box {
+    &:first-of-type {
+      grid-column: 1 / span 1;
+      grid-row: 1 / span 1;
+    }
+
+    @include media-breakpoint-up(sm) {
+      &:first-of-type {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      &:first-of-type {
+        grid-column: 3 / span 4;
+        grid-row: 1 / span 2;
+      }
+    }
+
+    @include media-breakpoint-up(xxl) {
+      &:first-of-type {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+      }
+    }
+  }
+}
